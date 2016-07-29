@@ -1,9 +1,11 @@
-# Tic Tac Toe
+# Recurse Center Code Submission: Tic Tac Toe
+
+In an attempt to simulate user input since the program is written in JavaScript without accompanying HTML page (thus, no event triggers), node.js readline package is used instead. This is also done in part to keep the front end agnostic from the back end, thus a JSON document can be generated and sent to the client instead by calling `tic_tac_toe.board`
 
 ## What works
 
 - [x] Basic game mechanism
-  * 2 players (Player 1: X, and Player 2: O)
+  * 2 players (`Player 1: "X"`, and `Player 2: "O"`)
   * Movesets recording to log players history
   * Pattern matching for winning conditions
 - [x] Front end agnostic: implement your own front end solution!

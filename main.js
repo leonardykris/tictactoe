@@ -1,9 +1,3 @@
-/*
-  Recurse Center Code Submission: Tic Tac Toe
-
-  > In an attempt to simulate user input since the program is written in JavaScript without accompanying HTML page (thus, no event triggers), the node.js readline package is used. This is also done in part to keep the front end agnostic from the back end, thus a JSON document can be generated and sent to the client instead by calling tic_tac_toe.board
-*/
-
 const readline = require('readline');
 
 const rl = readline.createInterface({
